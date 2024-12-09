@@ -1,0 +1,67 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+html{ font-family: Arial, Helvetica, sans-serif; font-size: 1em; color: white;}
+
+/*Configurações do cabeçalho*/
+header{ background-color: rgb(39, 41, 61); padding: 0.5%;height: 15em; display: flex; }
+
+/*Configurações do corpo*/
+body{ background-color: rgb(29, 29, 35);}
+
+/*Configurações do rodapé*/
+footer{ background-color: rgb(39, 41, 61); padding: 0.5%; height: 4em; text-align:center;}
+
+/*Divs para separar os conteudos */
+.separador{ margin-top: 1%; }
+
+/*Configurações dos boxs do cabeçalho*/
+
+#box-foto-header{width: 15%; height:100%;}
+
+#profile-picture{ width: 100%; border-radius: 50%; }
+
+#box-pai-conteudos-header{width: 85%; height: 100%; margin-left: 1%;}
+
+#box-filho1-conteudos-header{width: 100%; background-color: rgb(39, 41, 61); height: 70%; }
+
+h1{ margin: 0 auto; margin-left: 1%; font-size: 4em; }
+
+h2{ margin: 0 auto; margin-left: 1%; margin-top: 5px; }
+
+#box-filho2-conteudos-header{ width: 100%; background-color: rgb(49, 51, 77); height: 30%;}
+
+.menu{ width: 25%; float: left; padding: 10px; margin-top: -0.5%;border: black solid 1px; background-color: rgb(35, 126, 247); }
+
+.menu:hover{background-color: rgb(29, 29, 35); }
+
+a{ color: white; text-decoration: none; }
+
+nav{ display: block; text-align: center; padding: 1%; font-size: 1.5rem; height: 100%; }
+
+/*############################################################################################################*/
+/*Configurações do grid */
+
+.grid{ display: grid; grid-template-columns: repeat(auto-fill,minmax(100%, 1fr)); margin: auto; gap:1px; }
+
+.grid div{ text-align: center; padding: 1%; }
+
+#grid-conteudo{ background-color: rgb(39, 41, 61);  }
+
+#BoxPai-conteudo{ width: 100%; height: 21em; }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(29, 29, 35);
+    height: 5em;
+}
+th {
+    background-color: rgb(49, 51, 77);;
+    height: 5em;
+}
